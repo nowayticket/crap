@@ -19,7 +19,9 @@ mydb = mysql.connector.connect(
     host="db-mysql-nyc3-04264-do-user-17427062-0.g.db.ondigitalocean.com",
     user="doadmin",
     password="AVNS_d0WxqKS1idwyMvXeRHI",
-    database="defaultdb"
+    database="defaultdb",
+    port=25060,
+    ssl_ca="/path/to/ca-certificate.crt"
 )
 
 mydb.ping(True)
