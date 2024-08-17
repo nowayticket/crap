@@ -16,11 +16,12 @@ adminList = [6570604823]; # Админы
 
 # Database connection
 mydb = mysql.connector.connect(
-    host="private-db-mysql-nyc3-04264-do-user-17427062-0.g.db.ondigitalocean.com",
+    host="db-mysql-nyc3-04264-do-user-17427062-0.g.db.ondigitalocean.com",
     user="doadmin",
     password="AVNS_d0WxqKS1idwyMvXeRHI",
     database="defaultdb"
 )
+
 mydb.ping(True)
 mycursor = mydb.cursor()
 
