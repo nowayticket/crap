@@ -574,5 +574,5 @@ def run_flask():
     app.run(debug=False, use_reloader=False)
 
 if __name__ == '__main__':
-    Thread(target=run_flask).start()
-    run_bot()
+  app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)
+
