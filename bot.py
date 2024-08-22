@@ -11,8 +11,8 @@ from flask import Flask, request, redirect, render_template_string
 from threading import Thread
 
 # Telegram Bot token
-TOKEN = '7072444510:AAHMkePSqd8vXgbrTOJBbXihDRQYGN6Y56M' #API тестовый
-adminList = [6570604823]; # Админы
+TOKEN = '7350213085:AAExtGCu6b4S4nseIYJBVIVcY6qXvn6_joY' #API тестовый
+adminList = [1931264620]; # Админы
 
 # Database connection
 mydb = mysql.connector.connect(
