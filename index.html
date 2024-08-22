@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Link Generator</title>
+</head>
+<body>
+    <h1>Generate Payment Link</h1>
+    <form action="/generate_link" method="post">
+        <label for="amount">Enter Amount:</label>
+        <input type="text" id="amount" name="amount" required>
+        <button type="submit">Generate Link</button>
+    </form>
+    <div id="result">
+        <!-- Resulting link will be displayed here -->
+    </div>
+</body>
+</html>
