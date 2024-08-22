@@ -16,12 +16,10 @@ adminList = [6570604823]; # Админы
 
 # Database connection
 mydb = mysql.connector.connect(
-    host="db-mysql-nyc3-04264-do-user-17427062-0.g.db.ondigitalocean.com",
-    user="doadmin",
-    password="AVNS_d0WxqKS1idwyMvXeRHI",
-    database="defaultdb",
-    port=25060,
-    ssl_ca="/path/to/ca-certificate.crt"
+    host="gypsy81b.beget.tech",
+    user="gypsy81b_gypsy81",
+    password="wdai8h3H",
+    database="gypsy81b_gypsy81",
 )
 
 mydb.ping(True)
